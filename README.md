@@ -7,6 +7,27 @@ The goal is to understand how task characteristics influence reinforcement learn
 
 In addition, the project analyzes the effects of reward structure, observation complexity, training duration, and hyperparameter selection on PPO learning behavior across different reinforcement learning environments.
 
+```text
+AIHW3/
+├── src/
+│   ├── 01_train_breakout_smoke_test.py
+│   ├── 02_evaluate_breakout.py
+│   ├── 03_train_breakout_baseline.py
+│   ├── 04_train_breakout_lr_experiments.py
+│   ├── 05_extend_breakout_best_lr.py
+│   ├── 06_extend_breakout_further.py
+│   └── 07_plot_breakout_results.py
+│
+├── src_CartPole/
+│   ├── 001_train_cartpole_baseline.py
+│   ├── 002_capture_cartpole_frame.py
+│   ├── 003_capture_breakout_frame.py
+│   └── 004_plot_cartpole_results.py
+│
+└── README.md
+```
+
+
 Notes:
 1. Learning rate comparison on Atari Breakout
 2. Long-term PPO training on Breakout (500k → 2M → 6M timesteps)
